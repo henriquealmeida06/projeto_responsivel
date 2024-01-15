@@ -87,14 +87,16 @@ function App() {
 
 
       <main className="grid grid-cols-1 lg:grid-cols-2 bg-blue-100 justify-items-center gap-8 min-h-screen lg:px-4 py-28 lg:py-4">
-      <div className=" flex flex-col justify-center gap-8 text-left px-28 mt-10">
+      <div className=" grid w-full px-10 grid-cols-1 justify-center gap-8 text-left items-center  lg:px-28 mt-10 ">
         <p className="text-lg tracking-widest font-medium text-blue-500">AWESOME</p>
         <p className="font-medium text-4xl">We are Startup Creative Kucra Agency</p>
         <p className="text-gray-600 text-lg">Carefully crafted after analyzing the needs of different industries and the design achieves a great balance between purpose & presentation.</p>
-        <form className="bg-white rounded-3xl flex justify-between items-center px-1 py-1"> 
-        <input className="border-none outline-none py-2 px-5 rounded-3xl"  type="text" placeholder="Enter your e-mail"/>
-        <button className="bg-blue-500 py-3 px-8 tracking-wide rounded-3xl transform translate-y-0 hover:-translate-y-1 transition-transform duration-200 ease-in  text-white font-medium " >SUBSCRIBE</button>
+       
+        <form className="bg-white rounded-3xl flex justify-stretch lg:justify-between overflow-hidden  items-center px-1 py-1"> 
+        <input className="border-none outline-none py-2 px-2 lg:px-5 rounded-3xl "  type="text" placeholder="Enter your e-mail"/>
+        <button className="bg-blue-500 py-3 px-3 lg:px-8 tracking-wide  flex-shrink  rounded-3xl transform translate-y-0 hover:-translate-y-1 transition-transform duration-200 ease-in  text-white font-medium " >SUBSCRIBE</button>
          </form>
+         
 -
       </div>
       <div className="flex justify-center items-center mt-10">

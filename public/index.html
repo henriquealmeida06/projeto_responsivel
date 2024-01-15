@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="theme-color" content="#f9f9f9">
+    <link rel="apple-touch-icon" href="/icons/icons-192x192.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="canonical" href="https://projeto-responsivel.vercel.app/">
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -35,6 +39,17 @@
     <title>React App</title>
   </head>
   <body>
+    <script>
+      if ('serviceWorker' in navigation){
+        navigator.serviceWorker.register('sw.js')
+        .then(function(){
+          console.log('service worker registered');
+        })
+        .catch(function(){
+          console.warn('service worker failed');
+        })
+      }
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
