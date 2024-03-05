@@ -7,6 +7,7 @@ Este é um projeto foi criado para que eu pudesse praticar responsividade, eu bu
 - Projeto 100% responsivo
 - Incluí uma navbar responsiva no projeto
 - Efeitos e transições nos botões
+- 
 
 ## Tecnologia utilizada:
 - JavaScript
